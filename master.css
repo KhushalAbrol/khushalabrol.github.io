@@ -1,0 +1,209 @@
+.top{
+    background-color:#198b77;
+    padding:3px;
+}
+
+.dropdown, .homebtn{
+    background-color: cadetblue;
+    background-image: repeating-linear-gradient(cadetblue,#198b77);
+    position: relative;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.list{
+    display:none;
+    position: absolute;
+    background-color: rgb(178, 236, 238);
+    width: 146px;
+    z-index:2;
+}
+
+.menu, .home{
+min-width: 140px;
+padding:3px;
+}
+
+.list a{
+color:black;
+padding:12px 16px;
+text-decoration:none;
+align-items: center;
+height:25px;
+display: block;
+}
+
+.dropdown:hover .list{
+    display:block;
+}
+
+.menu:hover, .home:hover{
+    background-image: repeating-linear-gradient(#198b77,cadetblue);
+}
+
+.list a:hover{
+    color:rgb(198, 232, 233);
+    background-image: repeating-linear-gradient(#198b77,cadetblue,#198b77);
+}
+
+.list a:hover{
+    font-size: 0px;
+    align-items: flex-start;
+
+}
+.list a:hover::after{
+    color:rgb(198, 227, 228);
+    content: attr(data);
+    font-size:13px;
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+body{
+    background-color: bisque;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+}
+
+.khushal {
+    width: 80%;
+    height: 80%;
+}
+
+h1{
+    margin-top: .5rem;
+    margin-bottom: 3rem; 
+}
+
+h2{
+    color:#075AAB;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem; 
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 2rem; 
+}
+
+h4{
+    margin-top: 1rem;
+    margin-bottom: .5rem; 
+}
+
+h5{
+    margin-top: .5rem;
+    margin-bottom: 2rem; 
+}
+
+.gallery{
+    margin-top:10%;
+    margin:10% auto 10% auto;
+    width: 70%;
+    height:1000%;
+}
+
+.cer img{
+    background-color: teal;
+    padding:2%;
+    width:30%;
+    height:30%;
+    margin-bottom:16%;
+    margin-top:15%;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.cer img:hover{
+    width:70%;
+    height:70%;
+    margin-bottom:0%;
+    margin-top:0%;
+    opacity:1;
+    filter: grayscale(0%);
+
+}
+
+.main{
+    width:80%;
+    margin:auto;
+}
+
+.spec{
+    width:100%;
+    background-color: darkorchid;
+    margin:auto;
+    margin-bottom:10%;
+    filter:grayscale(60%) blur(1px);
+    opacity: .8;
+}
+
+.spec:hover{
+    transition: .5s;
+    filter: grayscale(0%) blur(0);
+    opacity: 1;
+}
+
+.iot_cer_container{
+    width:100%;
+    height: 550px;
+    background-color: black;
+    padding:1%;
+}
+
+
+
+.iot_cer{
+    width:60rem;
+    height:35rem;
+    margin:auto;    
+    background-color: darkgreen;
+
+}
+
+.iot_cer img{
+    width: 70%;
+    margin:auto;
+    background-color: palevioletred;
+    padding: 2%;
+
+
+}
+
+
+
+.iot_slider{
+    opacity: .5;
+    width:9%;
+    display: inline-table;
+
+
+}
+
+.iot_slider:hover{
+    opacity: 1;
+
+}
+
+#iot1:hover{
+    opacity: 0;
+}
+
+.iot_cer#iot1:hover{opacity: 0;}
+
